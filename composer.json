@@ -1,0 +1,30 @@
+{
+    "name": "botta/cqbus",
+    "description": "Simple command/query bus for modern PHP applications",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "pestphp/pest": "^4.7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Botta\\CQBus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Botta\\CQBus\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

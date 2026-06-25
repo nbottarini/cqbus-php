@@ -1,0 +1,21 @@
+/vendor/
+/.idea/
+/.phpunit.cache/
+/.php-cs-fixer.cache
+/.phpactor.json
+/.phpactor/
+/.psalm/
+/coverage/
+/build/
+/.DS_Store
+/composer.phar
+/phpunit.xml.cache
+/auth.json
+
+# Environment-specific
+/.env
+/.env.*
+!/.env.example
+
+# OS / editor
+Thumbs.db
